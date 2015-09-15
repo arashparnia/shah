@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1DA48221ACFE80D00163E4D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DA48211ACFE80D00163E4D /* main.cpp */; };
+		C1DA48311ACFE86D00163E4D /* gt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DA482B1ACFE86D00163E4D /* gt.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,14 @@
 
 /* Begin PBXFileReference section */
 		C1DA481E1ACFE80D00163E4D /* shah */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shah; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1DA48211ACFE80D00163E4D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1DA48281ACFE86D00163E4D /* BitBoards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitBoards.cpp; sourceTree = "<group>"; };
+		C1DA48291ACFE86D00163E4D /* BitBoards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitBoards.h; sourceTree = "<group>"; };
+		C1DA482A1ACFE86D00163E4D /* edit.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = edit.txt; sourceTree = "<group>"; };
+		C1DA482B1ACFE86D00163E4D /* gt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gt.cpp; sourceTree = "<group>"; };
+		C1DA482C1ACFE86D00163E4D /* gt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gt.h; sourceTree = "<group>"; };
+		C1DA482D1ACFE86D00163E4D /* old.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = old.cpp; sourceTree = "<group>"; };
+		C1DA482E1ACFE86D00163E4D /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		C1DA482F1ACFE86D00163E4D /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,14 @@
 		C1DA48201ACFE80D00163E4D /* shah */ = {
 			isa = PBXGroup;
 			children = (
-				C1DA48211ACFE80D00163E4D /* main.cpp */,
+				C1DA48281ACFE86D00163E4D /* BitBoards.cpp */,
+				C1DA48291ACFE86D00163E4D /* BitBoards.h */,
+				C1DA482A1ACFE86D00163E4D /* edit.txt */,
+				C1DA482B1ACFE86D00163E4D /* gt.cpp */,
+				C1DA482C1ACFE86D00163E4D /* gt.h */,
+				C1DA482D1ACFE86D00163E4D /* old.cpp */,
+				C1DA482E1ACFE86D00163E4D /* readme.txt */,
+				C1DA482F1ACFE86D00163E4D /* Timer.h */,
 			);
 			path = shah;
 			sourceTree = "<group>";
@@ -118,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DA48221ACFE80D00163E4D /* main.cpp in Sources */,
+				C1DA48311ACFE86D00163E4D /* gt.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
